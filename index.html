@@ -8,14 +8,58 @@
 
 <body>
     <h1>Car photo App</h1>
-    <main>
+    <section>
         <section>
             <h2> Car photos</h2>
             <!-- TODO: Add link to car photos-->
             <p>Click here to view more <a target="_blank" href="https://unsplash.com/photos/a4S6KUuLeoM"> Car photos</a></p>
-            <a href="https://unsplash.com/s/photos/classic-car"><img src="https://unsplash.com/photos/qijkjkJm63c" alt="Classic car"></a>
+            <a href="https://unsplash.com/s/photos/classic-car"><img src="./img/bradley-dunn-qijkjkJm63c-unsplash.jpg" alt="Classic car" width="300" height="300"></a>
         </section>
-    </main>
+        <section>
+            <h2> Car lists</h2>
+            <h3> List of Jeep car</h3>
+            <ul>
+                <li>FORD</li>
+                <li>Range Rover</li>
+                <li> High Lander</li>
+            </ul>
+            <figure>
+                <img src="./img/sven-d-a4S6KUuLeoM-unsplash.jpg" alt="jeep cars" width="300" height="300">
+                <figcaption> I <em>Love</em> Jeep cars</figcaption>
+            </figure>
+            <h3> Top 3 Jeep car i love</h3>
+            <ol>
+                <li>Ford</li>
+                <li>Range Rover</li>
+                <li>Highlander</li>
+            </ol>
+            <figure>
+                <img src="./img/lance-asper-N9Pf2J656aQ-unsplash.jpg" alt=" black Ford Mustang GT" width="300" height="300">
+                <figcaption>I <strong>love</strong> black Ford</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2> Car Form</h2>
+            <form action="https://unsplash.com/s/photos/car">
+                <fieldset>
+                    <legend>Is your Jeep Car FORD or Range Rover</legend>
+                    <label><input id="ford" type="radio" name="ford or range over" value="ford" checked> FORD</label>
+                    <label><input id="range-over" type="radio" name="ford or range over" value="range-rover">RANGE ROVER</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your best JEEP car.</legend>
+                    <lebe><input id="ford2" type="checkbox" value="ford" name="best-jeep" checked>FORD</lebe>
+                    <lebe><input id="range-rover2" type="checkbox" value="forange-rover2rd" name="best-jeep">Range Rover</lebe>
+                    <lebe><input id="highlander" type="checkbox" value="highlander" name="best-jeep">Highlander</lebe>
+                </fieldset>
+                <input type="text" name="jeep-cars" placeholder=" why you love the selected jeep" required>
+                <button type="submit"> Submit </button>
+            </form>
+        </section>
+        </main>
+        <footer>
+            <p>No Copyright - <a href="#"> Car Photo</a></p>
+        </footer>
 
 </body>
 
